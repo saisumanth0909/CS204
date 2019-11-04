@@ -32,7 +32,7 @@ void DelFirst(struct coordinate** headptr){
 	}
 } 
 
-void Del(int a,int b,struct coordinate** headptr){
+void Del(int a,struct coordinate** headptr){
 	coordinate* temp = *headptr;
 	coordinate* temp_ = NULL; 
 	int flag =0;
